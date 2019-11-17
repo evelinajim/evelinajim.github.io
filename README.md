@@ -10,9 +10,11 @@ This is the repository of the AggressiveSpeech Detection tool. This tool is capa
 * [textblob](https://textblob.readthedocs.io/en/dev/) - sentimate analysis 
 
 # Running the Program
-on a command line you reference the downloaded files by cding to the file location. Then you will reference the file and write the @ without the @ sign in it. The program will then recieve 100 tweets and the trained module will filter the aggressive tweets into a new array.
+On a command line you reference the downloaded files by cding to the file location. Then you will reference the file and write the @ without the @ sign in it. The program will then recieve 100 tweets and the trained module will filter the aggressive tweets into a new array.
 
 ```
 analysis.py twitterusername
 ```
 
+# Issues
+Currently the analysis.py is going through revision
