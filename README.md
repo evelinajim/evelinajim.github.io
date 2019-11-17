@@ -1,5 +1,3 @@
-# evelinajim.github.io
-
 # Sentiment Analysis That Detects Aggressive Speech  
 This is the repository of the AggressiveSpeech Detection tool. This tool is capable of entering a twitter @ and producing a score on how aggressive their speech is based on their last 100 tweets. It will also conjure up a csv file for which tweets were detected as aggressive for further analyzation by the user. 
 
