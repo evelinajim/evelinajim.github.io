@@ -17,6 +17,7 @@ tweets_i <- searchTwitter("SEARCHWORDHERE", n=1000,lang = "en")
 Once again, this tool makes it easy to perform sentiment analysis. In lin 72 change the 'get_nrc_sentiment' to the dataset that you want to filter the text with. 
 mysentiment_illegals<-get_nrc_sentiment((illegals_text))
 
+* A good one to use for example is this one [Cyber Aggression Dataset](https://dataturks.com/projects/abhishek.narayanan/Dataset%20for%20Detection%20of%20Cyber-Trolls)
 
 # Find the Files 
 [Detection Tool Files](https://github.com/evelinajim/evelinajim.github.io)
