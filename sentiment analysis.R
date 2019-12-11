@@ -66,7 +66,7 @@ undocumented_tweets.text.corpus <- tm_map(undocumented_tweets.text.corpus, funct
 
 ### CREATE WORDCLOUD ###
 library("wordcloud")
-wordcloud(illegals_tweets.text.corpus,min.freq = 40,colors=brewer.pal(8, "Dark2"),random.color = TRUE,max.words = 100)
+wordcloud(illegals_tweets.text.corpus,min.freq = 10,colors=brewer.pal(8, "Dark2"),random.color = TRUE,max.words = 500)
 wordcloud(undocumented_tweets.text.corpus,min.freq = 10,colors=brewer.pal(8, "Dark2"),random.color = TRUE,max.words = 500)
 
 ### SENTIMENT ANALYSIS ###
